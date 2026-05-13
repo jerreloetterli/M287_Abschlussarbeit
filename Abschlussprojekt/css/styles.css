@@ -7,7 +7,12 @@ body {
 	align-items: center;
 	justify-content: center;
 	min-height: 120px;
+	background-color: #095a84;
 }
+.nav-active {
+	background-color: #095a84;
+}
+
 .header-bar .logo-link img {
 	max-height: 80px;
 	width: auto;
