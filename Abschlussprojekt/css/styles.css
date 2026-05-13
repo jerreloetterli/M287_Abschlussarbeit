@@ -10,7 +10,8 @@ body {
 	background-color: #095a84;
 }
 .nav-active {
-	background-color: #095a84;
+	background-color: #095a84 !important;
+	color: white !important;
 }
 
 .header-bar .logo-link img {
