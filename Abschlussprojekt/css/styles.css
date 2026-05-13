@@ -17,6 +17,7 @@ body {
 .header-bar .logo-link img {
 	max-height: 80px;
 	width: auto;
+	margin-left: 1rem;
 }
 .main-nav {
 	text-align: center;
