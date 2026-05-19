@@ -1,30 +1,224 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="de">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="../css/styles.css">									<!-- Custom CSS -->
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">		<!-- W3.css -->
-	<link rel="icon" href="../media/img/Flagge.png"> 
-	<title>Essen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essen</title>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 </head>
-<body>
-	<header>
-		<div class="w3-bar header-bar">
-			<a class="logo-link" href="../index.html"><img src="../media/img/Flagge.png" alt="Logo"></a>
-		</div>
-	</header>
-	<nav class="w3-bar w3-light-grey">
-		<a href="../index.html" class="w3-bar-item w3-button">Home</a>
-		<a href="facts.html" class="w3-bar-item w3-button">Fakten</a>
-		<a href="media.html" class="w3-bar-item w3-button">Impressionen</a>
-		<a href="food.html" class="w3-bar-item w3-button nav-active">Essen</a>
-	</nav>
-	<main>
 
-	</main>
-	<footer>
+<body class="w3-light-grey">
 
-	</footer>
+    <!-- Header -->
+    <header class="w3-container w3-padding-32" style="background-color:#14324a;">
+        <img src="../media/img/flagge.png" alt="Thailand Flagge" class="w3-image" style="width:120px">
+    </header>
+
+    <!-- Navigation -->
+    <div class="w3-bar w3-light-grey">
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+        <a href="facts.html" class="w3-bar-item w3-button">Fakten</a>
+        <a href="impressionen.html" class="w3-bar-item w3-button">Impressionen</a>
+        <a href="food.html" class="w3-bar-item w3-button" style="background-color:#14324a; color:white;">Essen</a>
+    </div>
+
+    <!-- Hero -->
+    <section class="w3-container w3-center w3-padding-64" style="background-color:#b8322b; color:white;">
+        <h1 class="w3-xxxlarge"><b>Thailändisches Essen</b></h1>
+        <p class="w3-large">
+            Würzig, frisch, farbig und voller Geschmack.
+        </p>
+        <p>
+            Die Thai-Küche ist bekannt für Streetfood, frische Zutaten, Reisgerichte, Currys und süsse Desserts.
+        </p>
+    </section>
+
+    <!-- Intro -->
+    <section class="w3-container w3-white w3-padding-32 w3-center">
+        <h2 style="color:#b8322b;"><b>Eine Reise durch die Thai-Küche</b></h2>
+        <p class="w3-large">
+            In Thailand findet man überall leckeres Essen: auf Märkten, an kleinen Strassenständen
+            oder in Restaurants. Besonders typisch sind Reis, Nudeln, Curry, Kokosmilch,
+            Chili, Limette, frische Kräuter und exotische Früchte.
+        </p>
+    </section>
+
+    <!-- 4 Spalten Layout mit Bildern -->
+    <section class="w3-row-padding w3-padding-32" style="background-color:#eeeeee;">
+
+        <div class="w3-col l3 m6 s12 w3-margin-bottom">
+            <div class="w3-card-4 w3-white">
+                <img src="../media/img/Essen_1.jpg" alt="Streetfood" class="w3-image" style="width:100%; height:230px; object-fit:cover;">
+                <div class="w3-container">
+                    <h3 style="color:#b8322b;">Streetfood</h3>
+                    <p>
+                        An vielen Strassenständen wird frisch gekocht. Das Essen ist schnell,
+                        günstig und sehr beliebt.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col l3 m6 s12 w3-margin-bottom">
+            <div class="w3-card-4 w3-white">
+                <img src="../media/img/Essen_3.jpg" alt="Thai Gerichte" class="w3-image" style="width:100%; height:230px; object-fit:cover;">
+                <div class="w3-container">
+                    <h3 style="color:#b8322b;">Thai Gerichte</h3>
+                    <p>
+                        Typische Gerichte sind Pad Thai, Curry, Suppen und gebratener Reis.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col l3 m6 s12 w3-margin-bottom">
+            <div class="w3-card-4 w3-white">
+                <img src="../media/img/Essen_2.jpg" alt="Märkte" class="w3-image" style="width:100%; height:230px; object-fit:cover;">
+                <div class="w3-container">
+                    <h3 style="color:#b8322b;">Märkte</h3>
+                    <p>
+                        Auf Märkten gibt es viele Farben, Gerüche und verschiedene Spezialitäten.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col l3 m6 s12 w3-margin-bottom">
+            <div class="w3-card-4 w3-white">
+                <img src="../media/img/Essen_4.jpg" alt="Frische Zutaten" class="w3-image" style="width:100%; height:230px; object-fit:cover;">
+                <div class="w3-container">
+                    <h3 style="color:#b8322b;">Frische Zutaten</h3>
+                    <p>
+                        Viele Gerichte werden mit Kräutern, Gemüse, Reis, Fleisch oder Fisch gemacht.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Rezept Tabelle -->
+    <section class="w3-container w3-padding-48 w3-white">
+        <h2 class="w3-center" style="color:#b8322b;"><b>Thai-Menü mit Rezept-Ideen</b></h2>
+        <p class="w3-center w3-large">
+            Ein typisches Menü aus Thailand: frisch, würzig und am Schluss süss.
+        </p>
+
+        <div class="w3-responsive w3-padding-16">
+            <table class="w3-table-all w3-card-4 w3-hoverable">
+                <tr style="background-color:#14324a; color:white;">
+                    <th>Gang</th>
+                    <th>Gericht</th>
+                    <th>Zutaten</th>
+                    <th>Zubereitung</th>
+                    <th>Geschmack</th>
+                </tr>
+
+                <tr>
+                    <td><b>Vorspeise</b></td>
+                    <td><b>Papaya-Salat</b></td>
+                    <td>
+                        Grüne Papaya, Karotten, Limette, Chili, Erdnüsse, Tomaten und Fischsauce.
+                    </td>
+                    <td>
+                        Papaya und Karotten fein schneiden, mit Limettensaft, Chili und Sauce mischen.
+                        Danach mit Erdnüssen servieren.
+                    </td>
+                    <td>
+                        Frisch, sauer, scharf und knackig.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Hauptgang</b></td>
+                    <td><b>Pad Thai</b></td>
+                    <td>
+                        Reisnudeln, Ei, Gemüse, Poulet oder Crevetten, Sojasauce, Limette und Erdnüsse.
+                    </td>
+                    <td>
+                        Nudeln kochen, Gemüse und Ei anbraten, alles zusammen in der Pfanne mischen
+                        und mit Limette und Erdnüssen verfeinern.
+                    </td>
+                    <td>
+                        Süss, salzig, leicht würzig und sehr aromatisch.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Dessert</b></td>
+                    <td><b>Mango Sticky Rice</b></td>
+                    <td>
+                        Klebreis, reife Mango, Kokosmilch, Zucker und eine Prise Salz.
+                    </td>
+                    <td>
+                        Klebreis kochen, Kokosmilch erwärmen und darüber geben.
+                        Danach mit frischer Mango servieren.
+                    </td>
+                    <td>
+                        Süss, cremig, fruchtig und typisch thailändisch.
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- 3 Spalten Layout -->
+    <section class="w3-row-padding w3-padding-32" style="background-color:#f4c542;">
+
+        <div class="w3-third w3-margin-bottom">
+            <div class="w3-card w3-white w3-padding">
+                <h3 style="color:#b8322b;"><b>Scharf</b></h3>
+                <p>
+                    Viele Thai-Gerichte enthalten Chili. Dadurch schmecken sie intensiv und feurig.
+                </p>
+            </div>
+        </div>
+
+        <div class="w3-third w3-margin-bottom">
+            <div class="w3-card w3-white w3-padding">
+                <h3 style="color:#b8322b;"><b>Frisch</b></h3>
+                <p>
+                    Limette, Koriander, Basilikum und Zitronengras machen die Gerichte besonders frisch.
+                </p>
+            </div>
+        </div>
+
+        <div class="w3-third w3-margin-bottom">
+            <div class="w3-card w3-white w3-padding">
+                <h3 style="color:#b8322b;"><b>Farbig</b></h3>
+                <p>
+                    Thai-Essen sieht oft bunt aus, weil viele Gemüse, Früchte und Gewürze verwendet werden.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Fun Fact -->
+    <section class="w3-container w3-padding-32">
+        <div class="w3-panel w3-pale-yellow w3-leftbar w3-border-red w3-card-4">
+            <h3><b>Fun Fact</b></h3>
+            <p>
+                In Thailand bestellt man oft mehrere kleine Gerichte für den ganzen Tisch.
+                So können alle von allem probieren.
+            </p>
+        </div>
+    </section>
+
+    <!-- Schluss -->
+    <section class="w3-container w3-center w3-padding-64" style="background-color:#14324a; color:white;">
+        <h2><b>Thailand schmeckt nach Abenteuer</b></h2>
+        <p class="w3-large">
+            Die Thai-Küche ist eine Mischung aus Schärfe, Frische, Farbe und Tradition.
+            Wer Thailand besucht, sollte unbedingt verschiedene Gerichte ausprobieren.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-center w3-padding-16" style="background-color:#b8322b; color:white;">
+        <p>Thailand Webseite | Essen</p>
+    </footer>
+
 </body>
 </html>
