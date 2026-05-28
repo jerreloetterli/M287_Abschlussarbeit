@@ -171,3 +171,12 @@ body {
   #modal:checked + label + .w3-modal {
     display: block;
   }
+
+.thai-modal {
+  max-width: 600px;
+  margin-top: 8%;
+}
+
+.thai-text {
+  font-size: 13px;
+}
