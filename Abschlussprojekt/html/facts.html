@@ -116,37 +116,41 @@
 		</script>
 		<input type="checkbox" id="modal" hidden>
 
-<button 
-  class="w3-button w3-yellow w3-round w3-display-bottomleft"
-  onclick="document.getElementById('thai').style.display='block'">
-  Funfact
+<!-- BUTTON -->
+<button
+  class="w3-button w3-yellow w3-round funfact-btn"
+  onclick="document.getElementById('thaiModal').style.display='flex'">
+  Funfact 🇹🇭
 </button>
 
-<div id="thai" class="w3-modal">
+<!-- MODAL -->
+<div id="thaiModal" class="thai-overlay">
 
-  <div class="w3-modal-content w3-animate-zoom w3-card-4 thai-modal">
+  <div class="w3-card-4 w3-white thai-modal w3-animate-zoom">
 
-    <div class="w3-container w3-yellow">
+    <!-- TOP BAR -->
+    <div class="thai-header w3-yellow">
 
-      <button
-        class="w3-button w3-display-topright"
-        onclick="document.getElementById('thai').style.display='none'">
+      <span
+        class="thai-close"
+        onclick="document.getElementById('thaiModal').style.display='none'">
         &times;
-      </button>
-
-      <h1>Thailand Fun Fact</h1>
+      </span>
 
     </div>
 
+    <!-- CONTENT -->
     <div class="w3-container w3-padding-large">
 
-      <h2>Bangkok hat den längsten Stadtnamen der Welt! </h2>
+      <h1>Thailand Fun Fact 🇹🇭</h1>
+
+      <h2>Bangkok hat den längsten Stadtnamen der Welt!</h2>
 
       <p>
         Der offizielle Name besteht aus über 160 Zeichen.
       </p>
 
-      <p class="thai-text">
+      <p class="thai-name">
         <i>
           Krung Thep Maha Nakhon Amon Rattanakosin Mahinthara Ayutthaya
           Mahadilok Phop Noppharat Ratchathani Burirom Udomratchaniwet
@@ -154,9 +158,15 @@
         </i>
       </p>
 
+      <p>
+        Die meisten Menschen nennen die Stadt einfach:
+        <b>Krung Thep</b> 😊
+      </p>
+
     </div>
 
   </div>
+
 </div>
 	</main>
 	<footer class="w3-bar nav-active w3-padding-32">
