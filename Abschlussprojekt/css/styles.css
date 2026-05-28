@@ -180,3 +180,7 @@ body {
 .thai-text {
   font-size: 13px;
 }
+
+.w3-modal {
+  z-index: 9999;
+}
