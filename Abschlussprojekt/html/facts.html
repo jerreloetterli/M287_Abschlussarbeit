@@ -116,19 +116,52 @@
 		</script>
 		<input type="checkbox" id="modal" hidden>
 
-<label for="modal" class="w3-button w3-blue">
-  Öffnen
-</label>
+<button 
+  class="w3-button w3-yellow w3-round"
+  onclick="document.getElementById('thai').style.display='block'">
+  Funfact 🇹🇭
+</button>
 
-<div class="w3-modal">
-  <div class="w3-modal-content w3-padding">
+<div id="thai" class="w3-modal">
 
-    <label for="modal" class="w3-button w3-display-topright">
-      &times;
-    </label>
+  <div class="w3-modal-content w3-animate-zoom w3-card-4"
+       style="max-width:600px;margin-top:8%">
 
-    <h2>Modal</h2>
-    <p>Ganz ohni JavaScript.</p>
+    <div class="w3-container w3-yellow">
+
+      <button
+        class="w3-button w3-display-topright"
+        onclick="document.getElementById('thai').style.display='none'">
+        &times;
+      </button>
+
+      <h1>Thailand Fun Fact</h1>
+
+    </div>
+
+    <div class="w3-container w3-padding-large">
+
+      <h2>Bangkok hat den längsten Stadtnamen der Welt 😳</h2>
+
+      <p>
+        Der offizielle Name besteht aus über 160 Zeichen
+        und ist damit der längste Ortsname der Welt.
+      </p>
+
+      <p style="font-size:13px">
+        <i>
+          Krung Thep Maha Nakhon Amon Rattanakosin Mahinthara Ayutthaya
+          Mahadilok Phop Noppharat Ratchathani Burirom Udomratchaniwet
+          Mahasathan Amon Piman Awatan Sathit Sakkathattiya Witsanukam Prasit
+        </i>
+      </p>
+
+      <p>
+        Die meisten nennen die Stadt trotzdem einfach:
+        <b>Krung Thep</b> 😅
+      </p>
+
+    </div>
 
   </div>
 </div>
