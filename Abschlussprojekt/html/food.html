@@ -4,26 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Essen</title>
-
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="icon" href="../media/img/Flagge.png">
 </head>
 
 <body class="w3-light-grey">
 
-    <!-- Header -->
-    <header class="w3-container w3-padding-32" style="background-color:#14324a;">
-        <img src="../media/img/flagge.png" alt="Thailand Flagge" class="w3-image" style="width:120px">
-    </header>
+	<header>
+		<div class="w3-bar header-bar">
+			<a class="logo-link" href="../index.html"><img src="../media/img/Flagge.png" alt="Logo"></a>
+		</div>
+	</header>
+	<nav class="w3-bar w3-light-grey sticky">
+		<a href="../index.html" class="w3-bar-item w3-button">Home</a>
+		<a href="facts.html" class="w3-bar-item w3-button">Fakten</a>
+		<a href="media.html" class="w3-bar-item w3-button">Impressionen</a>
+		<a href="food.html" class="w3-bar-item w3-button nav-active">Essen</a>
+	</nav>
 
-    <!-- Navigation -->
-    <div class="w3-bar w3-light-grey">
-        <a href="index.html" class="w3-bar-item w3-button">Home</a>
-        <a href="facts.html" class="w3-bar-item w3-button">Fakten</a>
-        <a href="media.html" class="w3-bar-item w3-button">Impressionen</a>
-        <a href="food.html" class="w3-bar-item w3-button" style="background-color:#14324a; color:white;">Essen</a>
-    </div>
-
-    <!-- Hero -->
     <section class="w3-container w3-center w3-padding-64" style="background-color:#b8322b; color:white;">
         <h1 class="w3-xxxlarge"><b>Thailändisches Essen</b></h1>
         <p class="w3-large">
@@ -34,7 +33,6 @@
         </p>
     </section>
 
-    <!-- Intro -->
     <section class="w3-container w3-white w3-padding-32 w3-center">
         <h2 style="color:#b8322b;"><b>Eine Reise durch die Thai-Küche</b></h2>
         <p class="w3-large">
@@ -44,7 +42,6 @@
         </p>
     </section>
 
-    <!-- 4 Spalten Layout mit Bildern -->
     <section class="w3-row-padding w3-padding-32" style="background-color:#eeeeee;">
 
         <div class="w3-col l3 m6 s12 w3-margin-bottom">
@@ -98,7 +95,6 @@
 
     </section>
 
-    <!-- Rezept Tabelle -->
     <section class="w3-container w3-padding-48 w3-white">
         <h2 class="w3-center" style="color:#b8322b;"><b>Thai-Menü mit Rezept-Ideen</b></h2>
         <p class="w3-center w3-large">
@@ -163,7 +159,6 @@
         </div>
     </section>
 
-    <!-- 3 Spalten Layout -->
     <section class="w3-row-padding w3-padding-32" style="background-color:#f4c542;">
 
         <div class="w3-third w3-margin-bottom">
@@ -195,7 +190,6 @@
 
     </section>
 
-    <!-- Fun Fact -->
     <section class="w3-container w3-padding-32">
         <div class="w3-panel w3-pale-yellow w3-leftbar w3-border-red w3-card-4">
             <h3><b>Fun Fact</b></h3>
@@ -206,8 +200,7 @@
         </div>
     </section>
 
-    <!-- Schluss -->
-    <section class="w3-container w3-center w3-padding-64" style="background-color:#14324a; color:white;">
+    <section class="w3-container w3-center w3-padding-64 nav-active">
         <h2><b>Thailand schmeckt nach Abenteuer</b></h2>
         <p class="w3-large">
             Die Thai-Küche ist eine Mischung aus Schärfe, Frische, Farbe und Tradition.
@@ -215,10 +208,9 @@
         </p>
     </section>
 
-    <!-- Footer -->
-    <footer class="w3-container w3-center w3-padding-16" style="background-color:#b8322b; color:white;">
-        <p>Thailand Webseite | Essen</p>
-    </footer>
+	<footer class="w3-bar nav-active w3-padding-32">
+		<p class="w3-center">&copy; 2026 Jana Müller | Jerrel Oetterli | Cyrill Burger </p>
+	</footer>
 
 </body>
 </html>
