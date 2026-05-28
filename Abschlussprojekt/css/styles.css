@@ -165,7 +165,7 @@ body {
 }
 
 .box {
-  animation-duration: 4s;
+  animation-duration: 4s !important;
 }
 
   #modal:checked + label + .w3-modal {
