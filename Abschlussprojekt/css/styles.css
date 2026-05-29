@@ -1,7 +1,4 @@
 /* CSS Document */
-body {
-	font-family: Arial, sans-serif !important;
-}
 .header-bar {
 	display: flex;
 	align-items: center;
@@ -19,33 +16,7 @@ body {
 	width: auto;
 	margin-left: 1rem;
 }
-.main-nav {
-	text-align: center;
-	margin: 1rem 0;
-}
-.main-nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: center;
-	gap: 1rem;
-	flex-wrap: wrap;
-}
-.main-nav li {
-	margin: 0;
-}
-.main-nav a {
-	color: #ffffff;
-	text-decoration: none;
-	padding: 0.6rem 1rem;
-	background-color: #0b6fa4;
-	border-radius: 4px;
-	display: inline-block;
-}
-.main-nav a:hover {
-	background-color: #095a84;
-}
+
 .hero-img {
 	width: 100%;
 	height: auto;
@@ -133,11 +104,15 @@ body {
 
 .parallax2 {
   background-image: url("../media/img/Boot_2.jpg");
-  min-height: 600px;
+  min-height: 400px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.bg {
+  min-height: 400px;
+  z-index: -1;
 }
 
 .sticky {
@@ -156,17 +131,14 @@ body {
 .card-img {
   width: 100%;
   height: 240px;
-  object-fit: cover;
+  padding: 10px;
+  object-fit: contain;
 }
 
 .flagge {
   width: 180px;
 }
 
-.card-img {
-  width: 100%;
-  height: 200px;
-}
 
 .box {
   animation-duration: 4s !important;
@@ -275,3 +247,9 @@ body {
     background-color: #0b4f75;
     color: white;
 }
+
+.no-deco {
+	text-decoration: none;
+}
+
+
