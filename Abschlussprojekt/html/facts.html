@@ -12,19 +12,20 @@
 	<header>
 		<div class="w3-bar header-bar">
 			<a class="logo-link" href="../index.html"><img src="../media/img/Flagge.png" alt="Logo"></a>
+			<h1 class="nav-active w3-jumbo title w3-cursive"><b>Thailand</b></h1>
 		</div>
 	</header>
-	<nav class="w3-bar w3-light-grey">
-		<a href="../index.html" class="w3-bar-item w3-button">Thailand</a>
+	<nav class="w3-bar w3-light-grey sticky">
+		<a href="../index.html" class="w3-bar-item w3-button">Home</a>
 		<a href="facts.html" class="w3-bar-item w3-button nav-active">Fakten</a>
 		<a href="media.html" class="w3-bar-item w3-button">Impressionen</a>
 		<a href="food.html" class="w3-bar-item w3-button">Essen</a>
 	</nav>
 	<main>
- 		<article class="w3-col s6 w3-padding-small">
+ 		<section class="w3-col s6 w3-padding-small">
 			<img src="../media/img/Ferienhaus_1.jpg" alt="Ferienhaus" class="w3-image w3-round-large">
-		</article>
-		<article class="w3-col s6 w3-padding-small">
+		</section>
+		<section class="w3-col s6 w3-padding-small">
 			<button class="w3-button w3-block w3-white w3-large w3-card" onclick="accordion1('faq1')">Geografie und Naturwunder</button>
             <div id="faq1" class="w3-hide">
                 <p>Thailand umfasst eine Fläche von etwa 513.000 Quadratkilometern und lässt sich
@@ -103,7 +104,7 @@
 					<li>Das thailändische Neujahrsfest &quot;Songkran&quot; wird mit einer landesweiten, riesigen Wasserschlacht gefeiert.</li>
 				</ul>
             </div>
-		</article>
+		</section>
 		<script>
 		function accordion1(id) {
  		 var x = document.getElementById(id);
@@ -114,6 +115,57 @@
   			}
 		}
 		</script>
+		<input type="checkbox" id="modal" hidden>
+
+<button
+  class="w3-button w3-yellow w3-round funfact-btn"
+  onclick="document.getElementById('thaiModal').style.display='flex'">
+  Funfact
+</button>
+
+<div id="thaiModal" class="thai-overlay">
+
+  <div class="w3-card-4 w3-white thai-modal w3-animate-zoom">
+
+
+    <div class="thai-header w3-yellow">
+
+      <span
+        class="thai-close"
+        onclick="document.getElementById('thaiModal').style.display='none'">
+        &times;
+      </span>
+
+    </div>
+
+    <div class="w3-container w3-padding-large">
+
+      <h1>Thailand Fun Fact </h1>
+
+      <h2>Bangkok hat den längsten Stadtnamen der Welt!</h2>
+
+      <p>
+        Der offizielle Name besteht aus über 160 Zeichen.
+      </p>
+
+      <p class="thai-name">
+        <i>
+          Krung Thep Maha Nakhon Amon Rattanakosin Mahinthara Ayutthaya
+          Mahadilok Phop Noppharat Ratchathani Burirom Udomratchaniwet
+          Mahasathan Amon Piman Awatan Sathit Sakkathattiya Witsanukam Prasit
+        </i>
+      </p>
+
+      <p>
+        Die meisten Menschen nennen die Stadt einfach:
+        <b>Krung Thep</b> 
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
 	</main>
 	<footer class="w3-bar nav-active w3-padding-32">
 		<p class="w3-center">&copy; 2026 Jana Müller | Jerrel Oetterli | Cyrill Burger </p>
